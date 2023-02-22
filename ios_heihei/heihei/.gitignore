@@ -1,0 +1,11 @@
+*.iml
+*.jks
+.gradle
+.idea
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/Pods
+/Podfile.lock
