@@ -1,0 +1,15 @@
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+workspace 'heihei'
+
+project 'heihei.xcodeproj'
+
+target:heihei do
+    pod 'Toast', '~>3.1.0'
+    pod 'JPush', '~>3.5.2'
+    
+    project 'heihei.xcodeproj'
+end
